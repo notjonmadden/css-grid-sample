@@ -1,0 +1,70 @@
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Yantramanav:300" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="nav nav-header">
+            <div class="nav-logo">
+                <img src="amat.jpg">
+            </div>
+            <p class="nav-item nav-title">Strategic Software</p>
+            <p class="nav-item nav-actions-1">Actions</p>
+            <p class="nav-item nav-app-name">Test App</p>
+        </div>
+        <div class="content">
+            <div class="header">
+                <h1>Engine Builds</h1>
+                <hr>
+            </div>
+            <div class="submission">
+                <div class="input dropdown">
+                    <label for="project">Project</label>
+                    <select name="project">
+                        <option>Engine 09.00 SP4</option>
+                        <option>Tools 09.00</option>
+                    </select>
+                </div>
+                <div class="input dropdown">
+                    <label for="output">Output</label>
+                    <select name="output">
+                        <option>EXE Only</option>
+                        <option>EXE and ZIP</option>
+                        <option selected>EXE, ZIP and ISO</option>
+                    </select>
+                </div>
+                <div class="input checkbox">
+                    <label for="coverity">Coverity?</label>
+                    <input type="checkbox" name="coverity">
+                </div>
+            </div>
+            <div class="builds">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Project</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>91</td>
+                            <td>Engine 09.00</td>
+                            <td>Building...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="nav nav-footer">
+            <p class="nav-item nav-confidentiality">Applied Materials Confidential</p>
+            <span class="nav-item nav-contact">
+                <p class="nav-item">Contact:</p>
+                <a class="nav-item" href="mailto:dev_name@amat.com">Jon Madden</a>
+            </span>
+        </div>
+    </div>
+</body>
+</html>
