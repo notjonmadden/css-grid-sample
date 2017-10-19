@@ -1,0 +1,23 @@
+{
+  "name": "css-grid-sample",
+  "version": "1.0.0",
+  "description": "Experiment with creating a bootstrap-like layout with CSS Grid.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notjonmadden/css-grid-sample.git"
+  },
+  "author": "Jon Madden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notjonmadden/css-grid-sample/issues"
+  },
+  "homepage": "https://github.com/notjonmadden/css-grid-sample#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
